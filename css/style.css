@@ -178,6 +178,7 @@ nav {
     margin: auto;
 }
 
+
 .contenitore-section5 h2 {
     margin-bottom: 30px;
 }
@@ -185,4 +186,20 @@ nav {
 .immagine-section5 {
     width: 65%;
     margin: auto;
+}
+
+.immagine-section5 img {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin: auto;
+
+
 }
