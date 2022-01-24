@@ -13,13 +13,14 @@ html {
 .dimensioni-section {
     width: 100%;
     height: 90vh;
+    position: relative;
 }
 
 .section-header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
-    position: relative;
+
 }
 
 /* navbar */
@@ -80,7 +81,7 @@ nav {
 }
 
 /* elementi all interno dell header, titolo, p e due link  */
-.contenuto-header {
+.contenuto {
     width: 40%;
     text-align: center;
     position: absolute;
@@ -90,13 +91,13 @@ nav {
 }
 
 /* titolo  */
-.contenuto-header .titolo-header {
+.contenuto .titolo-header {
     color: white;
     font-size: 4rem;
 }
 
 /* paragrafo  */
-.contenuto-header .paragrafo-header {
+.contenuto .paragrafo-header {
     color: white;
     font-weight: bold;
     line-height: 1rem;
@@ -112,4 +113,49 @@ nav {
     color: white;
     background-color: black;
     margin-left: 20px;
+}
+
+
+
+
+
+
+
+/* section numero 2 */
+
+.contenuto-section {
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* immagine section  */
+.immagine-section2 {
+    width: 50%;
+    float: left;
+}
+
+/* div del testo nella section  */
+.contenitore-testo-section2 {
+    width: 25%;
+    display: inline-block;
+}
+
+/* caratteristiche titolo section  */
+.titolo-section {
+    font-size: 3rem;
+    line-height: 1.9rem;
+    text-align: left;
+    margin-top: 35px;
+}
+
+/* caratteristiche testo nella section  */
+.testo-section {
+    text-align: left;
+    font-size: 25px;
+    line-height: 1rem;
+    margin-top: 20px;
 }
