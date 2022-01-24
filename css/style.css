@@ -159,3 +159,11 @@ nav {
     line-height: 1rem;
     margin-top: 20px;
 }
+
+
+
+/* section numero 3 */
+.immagine-section3 {
+    width: 50%;
+    float: right;
+}
