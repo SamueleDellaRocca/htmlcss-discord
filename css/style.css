@@ -167,3 +167,22 @@ nav {
     width: 50%;
     float: right;
 }
+
+
+
+
+/* section numero 5 */
+.text-align-center {
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+
+.contenitore-section5 h2 {
+    margin-bottom: 30px;
+}
+
+.immagine-section5 {
+    width: 65%;
+    margin: auto;
+}
