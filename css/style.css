@@ -223,3 +223,39 @@ nav {
 .colorblack {
     background-color: black;
 }
+
+.contenitore-footer {
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.box-sinistra {
+    width: 20%;
+    float: left;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(226deg 58% 72%);
+    font-weight: bold;
+}
+
+.link-box-sinistra {
+    font-size: 35px;
+    line-height: 1rem;
+    display: inline-block;
+}
+
+
+td {
+    width: 200px;
+}
+
+td a {
+    color: white;
+}
+
+.riga1 {
+    color: hsl(226deg 58% 72%);
+}
