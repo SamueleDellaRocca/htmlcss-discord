@@ -1,5 +1,6 @@
 html {
     font-family: 'Dongle', sans-serif;
+    font-size: 22px;
 }
 
 * {
@@ -17,6 +18,7 @@ html {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 /* navbar */
@@ -28,7 +30,6 @@ nav {
 }
 
 .logo {
-    display: inline-block;
     width: 15%;
     float: left;
 }
@@ -60,17 +61,47 @@ nav {
 }
 
 .accedi {
-    display: inline-block;
     width: 15%;
     float: right;
 }
 
-.accedi .link-accedi {
+.link-generale {
     text-decoration: none;
     color: black;
     font-size: 25px;
     font-weight: bold;
     background-color: white;
-    padding: 3px 12px;
+    padding: 2px 12px;
     border-radius: 30px;
+}
+
+.contenuto-header {
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenuto-header .titolo-header {
+    color: white;
+    font-size: 4rem;
+}
+
+.contenuto-header .paragrafo-header {
+    color: white;
+    font-weight: bold;
+    line-height: 1rem;
+    font-size: 25px;
+}
+
+.bottoni-header {
+    margin-top: 30px;
+}
+
+.bottoni-header .bottone2 {
+    color: white;
+    background-color: black;
+    margin-left: 20px;
 }
