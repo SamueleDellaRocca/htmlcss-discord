@@ -9,6 +9,7 @@ html {
     box-sizing: border-box;
 }
 
+/* modifico lo sfondo */
 .dimensioni-section {
     width: 100%;
     height: 90vh;
@@ -29,6 +30,7 @@ nav {
     margin: auto;
 }
 
+/* logo navbar  */
 .logo {
     width: 15%;
     float: left;
@@ -39,6 +41,7 @@ nav {
     vertical-align: middle;
 }
 
+/* lista link navbar  */
 .contenitore-lista-link {
     display: inline-block;
     margin-left: 160px;
@@ -60,6 +63,7 @@ nav {
     margin-right: 30px;
 }
 
+/* tasto link accedi  */
 .accedi {
     width: 15%;
     float: right;
@@ -75,6 +79,7 @@ nav {
     border-radius: 30px;
 }
 
+/* elementi all interno dell header, titolo, p e due link  */
 .contenuto-header {
     width: 40%;
     text-align: center;
@@ -84,11 +89,13 @@ nav {
     transform: translate(-50%, -50%);
 }
 
+/* titolo  */
 .contenuto-header .titolo-header {
     color: white;
     font-size: 4rem;
 }
 
+/* paragrafo  */
 .contenuto-header .paragrafo-header {
     color: white;
     font-weight: bold;
@@ -96,6 +103,7 @@ nav {
     font-size: 25px;
 }
 
+/* i due link in basso  */
 .bottoni-header {
     margin-top: 30px;
 }
