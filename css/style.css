@@ -1,0 +1,76 @@
+html {
+    font-family: 'Dongle', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dimensioni-section {
+    width: 100%;
+    height: 90vh;
+}
+
+.section-header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* navbar */
+nav {
+    width: 80%;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    width: 15%;
+    float: left;
+}
+
+.logo img {
+    width: 150px;
+    vertical-align: middle;
+}
+
+.contenitore-lista-link {
+    display: inline-block;
+    margin-left: 160px;
+}
+
+.contenitore-lista-link .lista-link {
+    list-style: none;
+}
+
+.lista-link li {
+    display: inline-block;
+}
+
+.lista-link li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.accedi {
+    display: inline-block;
+    width: 15%;
+    float: right;
+}
+
+.accedi .link-accedi {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    padding: 3px 12px;
+    border-radius: 30px;
+}
